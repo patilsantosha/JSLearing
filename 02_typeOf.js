@@ -1,5 +1,5 @@
 
-
+console.log("=========================Assignment Number-2===========================");
 console.log("=========================First Step=================================","\n");
 var bankName;
 console.log("Before initialization:",bankName, "(Type Data type):",typeof bankName);
@@ -18,4 +18,4 @@ var totalCount="Hundred and Seven";
 console.log("Total count is:",totalCount,"(type of data):", typeof totalCount);
 totalCount=107;
 console.log("Updated count is:",totalCount,"(Type of data):", typeof totalCount);
-console.log("=========================Finished all Step=================================");
+console.log("=========================Finished all Step===========================");

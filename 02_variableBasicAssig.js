@@ -1,5 +1,5 @@
 
-
+console.log("*********************************Assignment Number-1********************************","\n");
 var mobileNo=706252235;
 var firstName="Santoshkumar";
 var isPass=true;

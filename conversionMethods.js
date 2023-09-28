@@ -42,4 +42,11 @@ result=String(324);
 console.log(`Number is 324`);
 console.log(`After conversion ==> ${result}`);
 console.log(`Data type of after conversion ==> `, typeof result);
+console.log(`================================================`);
+var n1 = "20";
+var n2 = 20;
+console.log(`n1 and n2 comparison "${n1}"==${n2}  Boolean vlaue ==>`,n1==n2); 
 
+console.log(`Before conversion`,n1, typeof n1);
+n1=+n1;
+console.log(`After conversion`, n1, typeof n1);

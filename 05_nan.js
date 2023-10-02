@@ -13,4 +13,4 @@ console.log(result ,typeof result);
 
 var num1 = "Jenny";
 var result = +num1;
-console.log(result);
+console.log(result, typeof result);

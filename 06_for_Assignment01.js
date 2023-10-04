@@ -1,25 +1,22 @@
 5
 
 
+var str1="Santoshkumar";
+var str2=" Patil";
+
+var result=str1.concat(str2);
+console.log(result);
+
+
+
     
-    
+    var i=" ";
 for (let index = 5; index <=15; index++) {
 
+    console.log(i);
 
-    console.log(index);
         
 }
 
-for (let index = 50; index >=40; index--) {
-    
-  console.log(index);
-    
-}
-//var temp=" ";
-for (let index = 1; index<=15; index +=2) {
-    
-   //temp=" ";
-    console.log(index);
-      
-  }
+  
   

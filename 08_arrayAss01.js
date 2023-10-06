@@ -20,3 +20,17 @@ for (let index = 0; index < arrayN.length; index++) {
 
 console.log(`Sum of array element [22, 11, 44, 55, 77, 33] : ${sum}`);
 console.log(`========================================================`);
+
+console.log(`===========program of to find even position & addition of even value========`);
+
+let arrayNum = [22, 11, 44, 55, 77, 33];
+let sums=0;
+for (let index = 0; index < arrayNum.length; index++) {
+  if (index % 2 == 0) {
+    const element = arrayNum[index];
+    console.log(element);
+    sums= sums+ element;
+  }
+  
+}
+console.log(sums);

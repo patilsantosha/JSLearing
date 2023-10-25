@@ -39,4 +39,5 @@ const empId = empObject.map((currentValue) => {
     return currentValue.emp_id;
   });
   console.log(`All employee ID ==> ${empId}`);
+
   

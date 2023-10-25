@@ -26,8 +26,8 @@ const empObject = [emp_anil, emp_radha, emp_rishi, emp_sonali, emp_monika, emp_v
 const findComName = empObject.filter((currentvalue)=>{
 
                 return currentvalue.emp_company == "TCS";
-}).map((currentValue)=>{
-
-    return currentValue.emp_name;
-})
-console.log(findComName);
+});
+console.log(`After Traversing Filtered array ==>`)
+findComName.forEach((value)=>{
+    console.log(`company name :${value.emp_company} & Employee name ${value.emp_name}`);
+});
